@@ -1,0 +1,39 @@
+table tbody{
+    display: block;
+    height: 250px;
+    overflow-y: scroll;
+}
+table thead, tbody tr {
+    display: table;
+    width: 80%;
+    table-layout: fixed;
+}
+table thead {
+    width: calc( 80% - 1em);
+}
+table{
+    margin-left: 50px;
+}
+.in-text{
+    position: relative;
+    margin-left: 50px;
+    margin-top:10px ;
+    width: 280px;
+    height: 30px;
+    border-radius: 10px;
+}
+.button-text{
+    margin-top: 10px;
+    position: relative;
+    width: 80px;
+    height: 28px;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: #625c83;
+}
+.label-text{
+    font-size: 17px;
+    margin-top: 10px;
+    margin-left: 50px;
+    color: rgba(255, 252, 33, 0.96);
+}

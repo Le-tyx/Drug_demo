@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>添加药品信息</title>
+    <link href="css/add.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<div class="container">
+    <div class="content">
+        <div class="page_name">添加药品信息</div>
+        <form action="/AddDrugServlet" method="post">
+            <div class="add1">
+                <br/><br/>
+                <label class="tn-form-label">药品名称：</label>
+                <input class="in-text" placeholder=" 如：头孢" name="DrugName" type="text"/><br/><br/>
+
+                <label class="tn-form-label">治疗症状：</label>
+                <input class="in-text" placeholder=" 如：消炎" name="Stype" type="text"/><br/><br/>
+
+                <label class="tn-form-label">药品等级：</label>
+                <select class="in-text" name="Ddegree">
+                    <option selected="" disabled="">药品属性</option>
+                    <option value="处方药">处方药</option>
+                    <option value="非处方药">非处方药</option>
+                </select><br/>
+            </div><br/><br/><br/>
+            <input name="" type="submit" class="button-text" value="提   交">
+        </form>
+    </div>
+</div>
+</body>
+</html>

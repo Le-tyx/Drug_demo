@@ -1,0 +1,46 @@
+*,
+ul,
+li,
+a,
+p {
+    list-style: none;
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    left: 50%;
+    top: 50%;
+    margin-left: -300px;
+    margin-top: -200px;
+    display:flex;
+    justify-content:center;
+    /*align-items:center;*/
+}
+.content{
+    margin-top: 20px;
+}
+
+ tr{
+    height: 30px;
+}
+
+ td{
+    width: 80px;
+    text-align: center;
+}
+
+.page-text{
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+    text-align: center;
+    font-size: 17px;
+    color: rgba(5, 3, 4, 0.99);
+}
+.text1{
+    text-align: center;
+}

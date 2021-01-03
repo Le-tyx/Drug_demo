@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>添加症状信息</title>
+    <link href="css/add.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<form action="/AddSymptomServlet" method="post">
+    <div class="container">
+        <div class="content">
+            <div class="page_name">添加症状信息</div><br/>
+            <div class="add1">
+                <label class="tn-form-label">症状描述：</label><br/>
+<!--                <input class="in-text" placeholder="  如：头痛" name="symptom" type="text"/><br/>-->
+                <textarea  wrap="physical" name="symptom" rows="5" cols="50">  如：头痛</textarea><br /><br/><br/>
+                <input name="" type="submit" class="button-text" value="提   交">
+            </div>
+        </div>
+    </div>
+</form>
+</body>
+</html>

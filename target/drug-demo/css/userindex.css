@@ -1,0 +1,125 @@
+*,
+ul,
+li,
+a,
+p {
+    list-style: none;
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+}
+.page_name{
+    margin:0;
+    padding:0;
+    text-align: center;
+    font-size: 35px;
+    color: antiquewhite;
+    background-color: rgba(240, 255, 255, 0.4);
+}
+hr{
+    margin-top: 5px;
+}
+body{
+    background-image: url("/image/bg1.jpg");
+    background-size: 80%;
+    background-repeat: repeat;
+}
+.container{
+    position: absolute;
+    width: 700px;
+    height: 500px;
+    left: 50%;
+    top: 50%;
+    margin-left: -350px;
+    margin-top:-250px;
+    background-size: cover;
+    background: #a3859a;
+    background-color: rgba(240, 255, 255, 0.5);
+    background-position: center center;
+    z-index: 1;
+}
+
+.content1{
+    position: relative;
+    width: 700px;
+    text-align: center;
+}
+
+.text-in{
+    margin-top: 20px;
+    position: relative;
+    width: 400px;
+    height: 30px;
+    font-size: 16px;
+}
+
+.button-text{
+    margin-top: 20px;
+    margin-left: 10px;
+    position: relative;
+    width: 80px;
+    height: 30px;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: #625c83;
+}
+
+.content1 .search-type{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 23px;
+    font-size: 20px;
+}
+
+.content2{
+    position: relative;
+    width: 700px;
+    text-align: center;
+}
+
+.Drugtable{
+    position: relative;
+    margin-top: -5px;
+    margin-left: 100px;
+}
+.button-text1{
+    position: absolute;
+    top: 302px;
+    left: 427px;
+    width: 80px;
+    height: 30px;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: #625c83;
+}
+.button-text2{
+    position: absolute;
+    top: 425px;
+    left: 550px;
+    width: 80px;
+    height: 30px;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: #625c83;
+}
+.content2 tr{
+    height: 30px;
+}
+.content2 td{
+    width: 80px;
+    text-align: center;
+}
+
+table tbody{
+    display: block;
+    height: 250px;
+    overflow-y: scroll;
+}
+table thead, tbody tr {
+    display: table;
+    width: 80%;
+    table-layout: fixed;
+}
+table thead {
+    width: calc( 80% - 1em);
+}
